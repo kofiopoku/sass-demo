@@ -1,0 +1,56 @@
+body {
+	width: 67%;
+	margin: 0 auto;
+	padding-bottom: 5%;
+}
+
+.sunset {
+	/* Add the property to make the image flexible */
+	max-width:100%;
+}
+
+/* Add a media query to change the background to color to yellow when the width is more than 480px*/
+@media(min-width:480px) {
+	body {
+		background-color: yellow;
+	}
+}
+
+
+/* Add a media query to change the line-height of the paragraph to 180% when width is more than 768px. Also, change the font size to 1.2em */
+@media(min-width: 768px) {
+	p {
+		line-height: 180%;
+		font-size: 1.2em;
+	}
+}
+
+
+
+/* Add a media query to make the headline 5em when the width is more than 992px */
+@media(min-width:992px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+
+/* Add a media query to change the background color to orange and the text to white, when the width is more than 1200px */
+@media(min-width:1200px) {
+	body {
+		background-color: orange;
+	}
+}
+
+
+
+/* Add a media query to remove the image and make the text red when the user hits print in their browser */
+@media print {
+	img {
+		display: none;
+	}
+
+	h1 {
+		color: red;
+	}
+}

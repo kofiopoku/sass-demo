@@ -1,0 +1,29 @@
+body {
+  font-size: 16px; }
+
+header {
+  position: relative; }
+  header h1 {
+    font-family: 'Shrikhand', cursive;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #AD0967; }
+
+aside {
+  margin-top: 2em; }
+  aside li {
+    padding: 2em;
+    line-height: 2em;
+    color: #ffffff; }
+    aside li:nth-child(1) {
+      background: #AD0967; }
+    aside li:nth-child(2) {
+      background: #dd0c84; }
+    aside li:nth-child(3) {
+      background: #f4289d; }
+    aside li:nth-child(4) {
+      background: #f659b3; }
+
+/*# sourceMappingURL=custom.css.map */
